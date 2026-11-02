@@ -1,0 +1,42 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://dunahotel.es/",
+ "read_at": "2026-11-02T11:00:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://dunahotel.es",
+   "sha256": "2af133b0261d253781e24e9460df852c5530352ed4d731f10c13e52bd47d101a",
+   "chars": 2732
+  },
+  {
+   "url": "https://dunahotel.es/habitaciones",
+   "sha256": "3262fd7e6ca77b6732e6e8519d8d7f4637fa59474f8ad3bba3720801ea189de1",
+   "chars": 5268
+  },
+  {
+   "url": "https://dunahotel.es/politica-de-cancelaciones",
+   "sha256": "fec500b009c2051c8d9232aee48c21019df89a273fb7ba5fe5cea9898d140307",
+   "chars": 4233
+  },
+  {
+   "url": "https://dunahotel.es/preguntas-frecuentes",
+   "sha256": "4917cfdec6e30c3d2098e23912c622d427d719d98bcc74e70b5641691d4ed66a",
+   "chars": 4460
+  }
+ ],
+ "other_pages_read": [
+  "https://dunahotel.es/bono-recuperem-turisme-2026",
+  "https://dunahotel.es/cancelar-reserva",
+  "https://dunahotel.es/contacto",
+  "https://dunahotel.es/en",
+  "https://dunahotel.es/fotos",
+  "https://dunahotel.es/ofertas/club-duna-discount",
+  "https://dunahotel.es/ofertas/long-stay-offer",
+  "https://dunahotel.es/ofertas/romantic-weekend-getaway",
+  "https://dunahotel.es/politica-privacidad",
+  "https://dunahotel.es/que-hacer-peniscola",
+  "https://dunahotel.es/reservas-grupos",
+  "https://dunahotel.es/trabajo"
+ ]
+}
