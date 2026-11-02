@@ -1,0 +1,420 @@
+{
+ "url": "http://127.0.0.1:34293/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 20 habitaciones dobles: Doble (vista interior), Doble con balcón, Doble con vistas al mar, Doble con balcón y vista al mar, Doble Delu"
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Todas tienen baño privado con ducha a ras de suelo, aire acondicionado/calefacción, TV, wifi gratis, minibar, caja fuerte y limpieza diaria;"
+    },
+    {
+     "q": "¿Tenéis parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El hotel no tiene parking. Enfrente está el aparcamiento privado subterráneo Voramar, y del 1 de noviembre al 28 de febrero el aparcamiento "
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No, el hotel no tiene piscina; está en primerísima línea de playa."
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Según sus preguntas frecuentes, por el momento no tienen restaurante y solo ofrecen alojamiento; cerca hay cafeterías y restaurantes. Confír"
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "La entrada está garantizada a las 16:00 y la salida es hasta las 12:00. La recepción abre en verano hasta las 00:00 y en temporada baja hast"
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en la Avda. del Mar, 35, 12598 Peñíscola (Castellón), en primerísima línea de playa y a escasos 200 metros del Casco Antiguo."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@dunahotel.es o llamar al +34 964 480 205. Este asistente no co"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@dunahotel.es o llamar al +34 964 480 205. Este asistente no co"
+    },
+    {
+     "q": "¿Puedo cancelar la reserva?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Puedes cancelar sin coste hasta 7 días antes de la llegada contactando con el hotel. Dentro de esos 7 días, la cancelación cuesta la primera"
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "No se admiten mascotas, y está prohibido fumar en las habitaciones y zonas comunes."
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: +34 964 480 205. Correo: reservas@dunahotel.es. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Tenéis cuna?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sí, puedes pedir una cuna sin coste adicional, pero solo en las habitaciones Doble, Deluxe o Deluxe con vistas al mar."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 964 480 205 · reservas@dunahotel.es."
+    },
+    {
+     "q": "¿Tenéis gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 964 480 205 · reservas@dunahotel.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Tenéis parking?",
+    "¿A qué hora es el check-in?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 20 double rooms: Double (inner view), Double with balcony, Double with sea view, Double with balcony and sea view, Deluxe Double and "
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "All have a private bathroom with walk-in shower, air conditioning/heating, TV, free wifi, minibar, safe and daily cleaning; iron and hairdry"
+    },
+    {
+     "q": "Do you have parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hotel has no parking. Opposite is the private underground car park Voramar, and from 1 November to 28 February parking in the green and "
+    },
+    {
+     "q": "Do you have a pool?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No, the hotel has no pool; it is right on the beachfront."
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "According to their FAQ, they currently have no restaurant and only offer accommodation; there are cafés and restaurants nearby. Please check"
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Check-in is guaranteed at 16:00 and check-out is until 12:00. Reception is open until 00:00 in summer and until 22:00 in low season; if you "
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at Avda. del Mar, 35, 12598 Peñíscola (Castellón), right on the beachfront and just 200 metres from the Old Town."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button), email reservas@dunahotel.es or call +34 964 480 205. This assistant does not confir"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button), email reservas@dunahotel.es or call +34 964 480 205. This assistant does not confir"
+    },
+    {
+     "q": "Can I cancel my booking?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "You can cancel free of charge up to 7 days before arrival by contacting the hotel. Within those 7 days, cancelling costs the first night. No"
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pets are not allowed, and smoking is forbidden in rooms and common areas."
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: +34 964 480 205. Email: reservas@dunahotel.es. Ask on WhatsApp →"
+    },
+    {
+     "q": "Do you have a cot?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Yes, you can request a cot at no extra cost, but only in the Double, Deluxe or Deluxe with sea view rooms."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 964 480 205 · reservas@dunahotel.es."
+    },
+    {
+     "q": "Do you have a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 964 480 205 · reservas@dunahotel.es."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you have parking?",
+    "What time is check-in?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte 20 chambres doubles : Double (vue intérieure), Double avec balcon, Double vue mer, Double avec balcon et vue mer, Double Deluxe et"
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Toutes ont salle de bains privée avec douche à l’italienne, climatisation/chauffage, TV, wifi gratuit, minibar, coffre-fort et ménage quotid"
+    },
+    {
+     "q": "Avez-vous un parking ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L’hôtel n’a pas de parking. En face se trouve le parking souterrain privé Voramar, et du 1er novembre au 28 février le stationnement en zone"
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Non, l’hôtel n’a pas de piscine ; il est en tout premier rang face à la plage."
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Selon leur FAQ, ils n’ont pas de restaurant pour le moment et proposent seulement l’hébergement ; il y a des cafés et restaurants à proximit"
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "L’entrée est garantie à 16:00 et le départ jusqu’à 12:00. La réception ouvre jusqu’à 00:00 en été et jusqu’à 22:00 en basse saison ; en cas "
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "L’hôtel se trouve Avda. del Mar, 35, 12598 Peñíscola (Castellón), en tout premier rang face à la plage et à 200 mètres de la vieille ville."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@dunahotel.es ou appeler le +34 964 480 205. Cet ass"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@dunahotel.es ou appeler le +34 964 480 205. Cet ass"
+    },
+    {
+     "q": "Puis-je annuler ma réservation ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Annulation gratuite jusqu’à 7 jours avant l’arrivée en contactant l’hôtel. Dans ces 7 jours, l’annulation coûte la première nuit. Les tarifs"
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Les animaux ne sont pas acceptés, et il est interdit de fumer dans les chambres et parties communes."
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : +34 964 480 205. E-mail : reservas@dunahotel.es. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Avez-vous un lit bébé ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Oui, vous pouvez demander un lit bébé sans supplément, mais seulement dans les chambres Double, Deluxe ou Deluxe vue mer."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 964 480 205 · reservas@dunahotel.es."
+    },
+    {
+     "q": "Avez-vous une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 964 480 205 · reservas@dunahotel.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Avez-vous un parking ?",
+    "À quelle heure est le check-in ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es hat 20 Doppelzimmer: Doppelzimmer (Innenblick), mit Balkon, mit Meerblick, mit Balkon und Meerblick, Deluxe und Deluxe mit Meerblick. Der"
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Alle haben eigenes Bad mit bodengleicher Dusche, Klimaanlage/Heizung, TV, kostenloses WLAN, Minibar, Safe und tägliche Reinigung; Bügeleisen"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Das Hotel hat keinen Parkplatz. Gegenüber liegt die private Tiefgarage Voramar, und vom 1. November bis 28. Februar ist das Parken in der gr"
+    },
+    {
+     "q": "Haben Sie einen Pool?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Nein, das Hotel hat keinen Pool; es liegt direkt in erster Strandlinie."
+    },
+    {
+     "q": "Gibt es Frühstück?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Laut FAQ gibt es derzeit kein Restaurant, nur Übernachtung; Cafés und Restaurants sind in der Nähe. Bitte beim Hotel nachfragen."
+    },
+    {
+     "q": "Wann ist der Check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Check-in garantiert ab 16:00, Check-out bis 12:00. Die Rezeption ist im Sommer bis 00:00 und in der Nebensaison bis 22:00 geöffnet; bei spät"
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Das Hotel liegt in der Avda. del Mar, 35, 12598 Peñíscola (Castellón), direkt am Strand und nur 200 Meter von der Altstadt."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen), an reservas@dunahotel.es schreiben oder +34 964 480 205 anrufen. Dieser A"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen), an reservas@dunahotel.es schreiben oder +34 964 480 205 anrufen. Dieser A"
+    },
+    {
+     "q": "Kann ich meine Buchung stornieren?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Kostenlose Stornierung bis 7 Tage vor Anreise über das Hotel. Innerhalb dieser 7 Tage kostet die Stornierung die erste Nacht. Nicht erstattu"
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Haustiere sind nicht erlaubt, und Rauchen ist in Zimmern und Gemeinschaftsbereichen verboten."
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: +34 964 480 205. E-Mail: reservas@dunahotel.es. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Haben Sie ein Kinderbett?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Ja, ein Kinderbett ist ohne Aufpreis möglich, aber nur in den Zimmern Doppel, Deluxe oder Deluxe mit Meerblick."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 964 480 205 · reservas@dunahotel.es."
+    },
+    {
+     "q": "Gibt es einen Fitnessraum?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 964 480 205 · reservas@dunahotel.es."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es einen Parkplatz?",
+    "Wann ist der Check-in?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
