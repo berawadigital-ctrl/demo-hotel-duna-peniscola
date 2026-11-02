@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-duna-peniscola",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-11-02T10:59:00+01:00",
+ "updated_at": "2026-11-02T11:20:00+01:00",
+ "business": {
+  "name": "Duna Hotel Boutique",
+  "legal_name": "Hostelera de Peñíscola SL, CIF B44505022 (aviso legal de su web)",
+  "registry_ids": [
+   "B44505022"
+  ],
+  "url": "https://dunahotel.es/",
+  "domain": "dunahotel.es",
+  "municipality": "Peñíscola",
+  "province": "Castellón",
+  "address": "Avda. del Mar, 35 · 12598 Peñíscola",
+  "phones": [
+   "+34 964 480 205"
+  ],
+  "emails": [
+   "reservas@dunahotel.es"
+  ],
+  "sector": "hotel boutique en primera línea de playa en Peñíscola"
+ },
+ "rating": {
+  "value": 4.3,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/search/Duna+Hotel+Pe%C3%B1%C3%ADscola",
+  "date": "2026-10-30",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://reservas.dunahotel.es/es/",
+  "note": "motor propio enlazado desde el boton RESERVAR de su web: https://reservas.dunahotel.es/es/ (es), /en/, /fr/ y /de/, HTTP 200 los cuatro (02/11/2026 11:05)."
+ },
+ "audit_original": {
+  "url": "https://dunahotel.es/",
+  "date": "2026-11-02T11:00:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
