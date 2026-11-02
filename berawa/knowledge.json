@@ -415,19 +415,23 @@
    "keys": {
     "es": [
      "cancel",
+     "cancelar",
      "anular",
      "reembols"
     ],
     "en": [
      "cancel",
+     "cancellation",
      "refund"
     ],
     "fr": [
      "annul",
+     "annuler",
      "rembours"
     ],
     "de": [
      "storn",
+     "stornier",
      "erstatt"
     ]
    },
