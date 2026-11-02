@@ -61,8 +61,8 @@
     {
      "q": "¿Puedo cancelar la reserva?",
      "esperado": "K09",
-     "ok": false,
-     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@dunahotel.es o llamar al +34 964 480 205. Este asistente no co"
+     "ok": true,
+     "respuesta": "Puedes cancelar sin coste hasta 7 días antes de la llegada contactando con el hotel. Dentro de esos 7 días, la cancelación cuesta la primera"
     },
     {
      "q": "¿Admitís mascotas?",
@@ -269,8 +269,8 @@
     {
      "q": "Puis-je annuler ma réservation ?",
      "esperado": "K09",
-     "ok": false,
-     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@dunahotel.es ou appeler le +34 964 480 205. Cet ass"
+     "ok": true,
+     "respuesta": "Annulation gratuite jusqu’à 7 jours avant l’arrivée en contactant l’hôtel. Dans ces 7 jours, l’annulation coûte la première nuit. Les tarifs"
     },
     {
      "q": "Acceptez-vous les animaux ?",
@@ -415,9 +415,6 @@
    ]
   }
  },
- "fail": [
-  "es: chat \"¿Puedo cancelar la reserva?\" esperado K09 -> Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@du",
-  "fr: chat \"Puis-je annuler ma réservation ?\" esperado K09 -> Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à "
- ],
- "ok": false
+ "fail": [],
+ "ok": true
 }
