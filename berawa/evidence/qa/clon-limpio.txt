@@ -1,0 +1,14 @@
+HEAD a7cbb5af963e69ed694bee237ced1dbd8e734eea
+OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
+FALLO tests_hotel_duna_peniscola: 4 idiomas + chatbot contra la base (HTTP)
+   FALLOS ['es: chat "¿Puedo cancelar la reserva?" esperado K09 -> Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@du', 'fr: chat "Puis-je annuler ma réservation ?" esperado K09 -> Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à ']
+OK    a11y_test: axe-core + teclado (HTTP)
+OK    contrast_manual: contraste de nodos «incompletos» de axe
+OK    keys_test: claves del chat sin ambiguedad
+OK    sec_scan: revision estatica + CSP efectiva
+FALLO tests_hotel_duna_peniscola por file://
+   FALLOS ['es: chat "¿Puedo cancelar la reserva?" esperado K09 -> Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@du', 'fr: chat "Puis-je annuler ma réservation ?" esperado K09 -> Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à ']
+OK    a11y_test por file://
+
+6/8 comprobaciones OK · resultados en /tmp/clon-hotel-duna-peniscola/out
+run_checks exit 1
